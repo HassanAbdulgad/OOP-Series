@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+// This is my first OOP problem solving
 class Employee {
 	public:
 		int id;
@@ -19,6 +20,8 @@ int main(){
 	cout<<"Please Enter Your Age: ";
 	cin>>e.age;
 
-	cout<<e.id<<"  -  "<<e.name<<"  -  "<<e.age<<endl;
+	cout  << "Your name is  " << e.name << " your are " << e.age << "  years old  " << " and your id number  " << e.id ;
+
+	return 0;
 	
 }
